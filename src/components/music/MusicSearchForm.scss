@@ -1,0 +1,27 @@
+.searchBar{
+  width: 50%;
+  //display: ;
+  padding: {
+    top: 0.5em;
+    bottom: 0.5em;
+    left: 2.5em;
+    right: 0.5em;
+  }
+  border: 0.1em solid;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+  outline: none;
+
+  font-size: 0.7em;
+
+  background: {
+    image: url('../../assets/search.svg');
+    repeat: no-repeat;
+    position-x: 0.4em;
+    position-y: 0.5em;
+    size: 1.2em;
+  }
+  &:focus{
+    border-color: #0f8257;
+  }
+}
